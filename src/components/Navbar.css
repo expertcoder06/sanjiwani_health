@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #fff;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-outline {
+  padding: 8px 20px;
+  border: 2px solid #2bb0a6;
+  background: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-filled {
+  padding: 8px 20px;
+  background: #2bb0a6;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
