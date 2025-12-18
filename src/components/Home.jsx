@@ -67,7 +67,7 @@ const Home = () => {
 
        
         <div className="mt-14 flex items-center justify-between opacity-90">
-          <PartnerLogo src={hlg} />
+          <PartnerLogo src={hlg}  />
           <PartnerLogo src={healthworld} />
           <PartnerLogo src={saryanm} />
           <PartnerLogo src={mission} />
