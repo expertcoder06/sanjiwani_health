@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Hero />
+      <Navbar className="w-full"/>
+      <Hero className ="w-full"/>
     </>
   )
 }
