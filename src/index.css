@@ -1,11 +1,18 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 @import "tailwindcss";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
-}
 
 body {
-  background: linear-gradient(135deg, #2bb0a6, #64d3c6);
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+*:root{
+  background-color: #20BACD;
+}
+
+.home-gradient {
+  background: linear-gradient(135deg, #FFFF #20BCAD );
 }
